@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Container from "react-bootstrap/Container";
@@ -35,6 +35,7 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route path="/shoppingcart-rtk" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
