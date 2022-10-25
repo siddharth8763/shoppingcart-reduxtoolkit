@@ -35,7 +35,7 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/shoppingcart-rtk" element={<Home />} />
+            <Route path="/shoppingcart-reduxtoolkit" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>

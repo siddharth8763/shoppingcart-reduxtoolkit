@@ -1,6 +1,6 @@
 {
-  "homepage": "https://siddharth8763.github.io/shoppingcart-rtk",
-  "name": "shoppingcart-rtk",
+  "homepage": "https://siddharth8763.github.io/shoppingcart-reduxtoolkit",
+  "name": "shoppingcart-reduxtoolkit",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
